@@ -8,11 +8,22 @@ this is a fully video player application - backend part - using django framework
 
 for better experience, please using virtual environment and install requirement.txt on relief_backend folder
 
-Install the gem:
+Install the env:
 
 ```bash
 conda create --name <env> --file requirements.txt
 ```
+
+go to folder relief_backend and create migration to database, and run the app!!
+```bash
+cd relief_backend
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+```
+
+
+
 
 ## **How it works**
 
